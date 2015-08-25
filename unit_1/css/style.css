@@ -1,73 +1,40 @@
+/*@keyframes example {
+    0%   {background-color: red; left:0px; top:0px; -webkit-transform: rotateY(0deg);}
+    25%  {background-color: yellow; left:200px; top:0px; -webkit-transform: rotateY(180deg);}
+    50%  {background-color: blue; left:200px; top:200px; -webkit-transform: rotateY(360deg);}
+    75%  {background-color: green; left:0px; top:200px; -webkit-transform: rotateY(540deg);}
+    100% {background-color: red; left:0px; top:0px; -webkit-transform: rotateY(720deg);}
+}
+
+div {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 1px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}*/
+
+/*div {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 1px;
+  background-color: red;
+  -webkit-transition: width 4s;
+}
+
+div:hover {
+  width: 100px;
+}*/
+
+p {
+  color: blue;
+}
+
 body {
-  background-color: lightblue;
+  background-color: gold;
 }
-
-#container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    background-color: white;
-
-}
-
-header {
-  text-align: center;
-  background: rgba(244,164,96,1);
-  background-size: cover;
-}
-
-nav {
-  background-color: brown;
-  border-top: 3px black solid;
-  border-bottom: 3px black solid;
-  height: 40px;
-  margin: 0 auto;
-}
-
-a {
-  display: block;
-  text-align: center;
-  background-color: brown;
-  color: white;
-  padding: 12px 0;
-  width: 20%;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  float: left;
-}
-
-a:hover {
-  background-color: white;
-  color: brown;
-}
-
-
-img {
-  margin: 0;
-  width: 450px; 
-  height: 300px;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 20px;
-  padding: 3px;
-}
-
-article {
-  max-width: 500px;
-  padding: 20px;
-  margin: 0 auto;
-  
-}
-
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
-}
-

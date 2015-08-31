@@ -48,7 +48,7 @@ header {
   width: 900px;
   height: 150px;
   border: 1px solid black;
-  background-color: white;
+  background-color: green;
   margin: auto;
   margin-top: 10px;
 }
@@ -57,7 +57,7 @@ nav {
   width: 900px;
   height: 90px;
   border: 1px solid black;
-  background-color: white;
+  background-color: red;
   margin: auto;
 }
 
@@ -65,7 +65,7 @@ nav {
   width: 900px;
   height: 300px;
   border: 1px solid black;
-  background-color: white;
+  background-color: blue;
   margin: auto;
 }
 
@@ -73,7 +73,7 @@ footer {
   width: 900px;
   height: 90px;
   border: 1px solid black;
-  background-color: white;
+  background-color: purple;
   margin: auto;
   margin-bottom: 10px;
 }

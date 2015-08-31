@@ -31,14 +31,38 @@ div:hover {
   width: 100px;
 }*/
 
-p {
-  color: blue;
-}
+
 
 body {
-  background-color: gold;
+  background-color: orange;
 }
 
+.container {
+  width: 920px;
+}
 
+header {
+  width: 900px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+nav {
+  width: 900px;
+  height: 90;
+  border: 1px solid black;
+}
+
+main {
+  width: 900px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+footer {
+  width: 900px;
+  height: 90;
+  border: 1px solid black;
+}
 
 

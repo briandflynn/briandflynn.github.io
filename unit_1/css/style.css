@@ -41,6 +41,7 @@ body {
   width: 920px;
   border: 1px solid black;
   background-color: white;
+  margin: auto;
 }
 
 header {
@@ -52,7 +53,7 @@ header {
 
 nav {
   width: 900px;
-  height: 90;
+  height: 90px;
   border: 1px solid black;
   background-color: white;
 }
